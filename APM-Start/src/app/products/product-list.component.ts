@@ -20,6 +20,7 @@ export class ProductListComponent implements OnInit {
     return this._listFilter;
   }
 
+
   set listFilter(value: string) {
     this._listFilter = value;
     console.log('In setter:', value)
